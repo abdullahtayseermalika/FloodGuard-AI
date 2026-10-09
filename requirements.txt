@@ -4,8 +4,3 @@ pandas
 rasterio
 geopandas
 shapely
-folium
-streamlit-folium
-opencv-python-headless
-matplotlib
-      
