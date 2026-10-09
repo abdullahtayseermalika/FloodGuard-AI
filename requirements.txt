@@ -4,3 +4,4 @@ pandas
 rasterio
 geopandas
 shapely
+matplotlib
