@@ -5,7 +5,7 @@ from pathlib import Path
 from src.map_visualization import create_flood_map
 
 
-def main():
+def test_main():
     with tempfile.TemporaryDirectory() as temp_dir:
         output_path = Path(temp_dir) / "test_map.html"
 

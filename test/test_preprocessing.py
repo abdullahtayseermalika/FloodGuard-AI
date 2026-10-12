@@ -13,7 +13,7 @@ from src.preprocessing import (
 )
 
 
-def main():
+def test_main():
     with tempfile.TemporaryDirectory() as temp_dir:
         image_path = Path(temp_dir) / "synthetic.tif"
 

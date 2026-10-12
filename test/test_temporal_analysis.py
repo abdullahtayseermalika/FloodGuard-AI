@@ -4,7 +4,7 @@ import numpy as np
 from src.temporal_analysis import compare_water_indices
 
 
-def main():
+def test_main():
     earlier = np.array(
         [[-0.2, 0.3], [0.1, np.nan]],
         dtype=np.float32,

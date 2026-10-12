@@ -10,7 +10,7 @@ from rasterio.transform import from_origin
 from src.vector_export import export_mask_to_geojson
 
 
-def main():
+def test_main():
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_dir = Path(temp_dir)
         mask_path = temp_dir / "synthetic_mask.tif"
